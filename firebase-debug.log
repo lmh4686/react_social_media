@@ -1,0 +1,62 @@
+[debug] [2023-01-06T06:55:11.685Z] ----------------------------------------------------------------------
+[debug] [2023-01-06T06:55:11.687Z] Command:       /Users/lee/.nvm/versions/node/v19.1.0/bin/node /Users/lee/.nvm/versions/node/v19.1.0/bin/firebase init
+[debug] [2023-01-06T06:55:11.687Z] CLI Version:   11.20.0
+[debug] [2023-01-06T06:55:11.687Z] Platform:      darwin
+[debug] [2023-01-06T06:55:11.687Z] Node Version:  v19.1.0
+[debug] [2023-01-06T06:55:11.687Z] Time:          Fri Jan 06 2023 17:55:11 GMT+1100 (Australian Eastern Daylight Time)
+[debug] [2023-01-06T06:55:11.687Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-06T06:55:11.690Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-06T06:55:11.690Z] > authorizing via signed-in user (lmh4686@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/lee/personal_projects/react_note/social_media_project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-01-06T06:55:37.874Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-01-06T06:55:39.349Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-01-06T06:55:39.349Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-social-media-c819e (firebase-social-media) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote public/404.html 
+[debug] [2023-01-06T06:57:52.607Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-01-06T06:57:52.870Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-01-06T06:57:52.871Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.15.0","browserURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.15.0/firebase.tgz"},"live":{"version":"9.15","browserURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.15/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.15.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.15.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.15.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.15.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.15.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.15.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.15.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.15.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/lee/personal_projects/react_note/social_media_project 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=528270165&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-01-06T06:58:33.149Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-01-06T06:58:33.149Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-01-06T06:58:33.545Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-01-06T06:58:33.545Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-01-06T06:58:33.556Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-01-06T06:58:33.961Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-01-06T06:58:33.962Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"lmh4686","id":69904553,"node_id":"MDQ6VXNlcjY5OTA0NTUz","avatar_url":"https://avatars.githubusercontent.com/u/69904553?v=4","gravatar_id":"","url":"https://api.github.com/users/lmh4686","html_url":"https://github.com/lmh4686","followers_url":"https://api.github.com/users/lmh4686/followers","following_url":"https://api.github.com/users/lmh4686/following{/other_user}","gists_url":"https://api.github.com/users/lmh4686/gists{/gist_id}","starred_url":"https://api.github.com/users/lmh4686/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/lmh4686/subscriptions","organizations_url":"https://api.github.com/users/lmh4686/orgs","repos_url":"https://api.github.com/users/lmh4686/repos","events_url":"https://api.github.com/users/lmh4686/events{/privacy}","received_events_url":"https://api.github.com/users/lmh4686/received_events","type":"User","site_admin":false,"name":"Jihyuk LEE","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":23,"public_gists":0,"followers":1,"following":0,"created_at":"2020-08-19T12:27:59Z","updated_at":"2023-01-02T05:30:30Z","private_gists":0,"total_private_repos":6,"owned_private_repos":1,"disk_usage":139297,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as lmh4686 
+[info] 
